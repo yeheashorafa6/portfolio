@@ -5,6 +5,9 @@
      --bs-nav-tabs-border-width:none;
 }
 
+.nav-pills{
+    display: inline-block;
+}
 .tab-content .nav-tabs .nav-item{
 display: block;
 background: #1E1F26 !important;
@@ -36,7 +39,6 @@ transition: all .5s ease;
 }
 
 .tab-pane{
-    background-color: #242426;
     border-radius: 10px;
 
     /* padding: 10px; */
