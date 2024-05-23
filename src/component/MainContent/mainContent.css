@@ -1,0 +1,74 @@
+.nav-tabs{
+    --bs-nav-tabs-link-active-color:none; 
+     --bs-nav-tabs-link-active-bg: none;
+     border-bottom: none;
+     --bs-nav-tabs-border-width:none;
+}
+
+.tab-content .nav-tabs .nav-item{
+display: block;
+background: #1E1F26 !important;
+border-radius: 5px;
+transition: all .5s ease;
+
+}
+.tab-content .nav-tabs .nav-item .nav-link{
+    color: var(--title-color) ;
+    /* padding: 15px !important; */
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+transition: all .5s ease;
+
+}
+
+.nav-link.active {
+    color: var(--golden-color) !important;
+}
+
+.nav-tabs .nav-item:hover {
+        border: 1px solid var(--golden-color) !important;
+        color: var(--golden-color) !important; 
+}
+    
+.nav-tabs .nav-item:hover .nav-link{
+    color: var(--golden-color);
+}
+
+.tab-pane{
+    background-color: #242426;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+}
+.tab-pane .tab-pane-image img{
+    box-sizing: border-box;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.tab-pane-info .info-title{
+    color: var(--title-color);
+
+}
+
+.tab-pane-info .info-sub-title{
+    color: var(--sub-title-color);
+    font-size: 16px;
+}
+
+.socail-link .more{
+    float: right;
+    
+}
+.more .arrow{
+    font-size: 15px;
+}
+.socail-link span.social-item{
+
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}

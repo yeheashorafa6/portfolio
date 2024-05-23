@@ -1,0 +1,114 @@
+/* ===========================
+ table of contents
+==============================
+1. Header Design
+2. Button & icon
+3- Modal == pop up
+4- Responsive Design (media query)*/
+
+/* ========================
+    1. Header Design
+=========================== */
+
+.navbar{
+    background-color: #252529;
+    color: white;
+    border-radius:var(--border-raduis-mediam) ;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--border-color); 
+    transition: all .4s ease;
+       
+}
+
+.navbar-nav .nav-item .nav-link{
+
+    font-size: 16px;
+    color: var(--title-color);
+}
+
+.navbar-nav .nav-item .nav-link.active , .navbar-nav .nav-item .nav-link:hover{
+    color: var(--golden-color) !important;
+}
+
+
+.mode button{
+    border:none ;
+    padding: 10px;
+    border-radius: var(--border-raduis-mediam);
+    background: transparent;
+    font-size: 30px;
+    /* border-radius: 50px; */
+    /* padding: 10px; */
+    
+}
+
+.mode button:hover{
+    /* border: 1px solid var(--border-color); */
+    color: #ffffff;
+}
+.navbar-toggler {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    width: 30px;
+    height: 35px;
+    outline: none;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: none;
+    background:white;
+    transition: background 10ms 300ms ease;
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: relative;
+}
+.navbar-toggler .navbar-toggler-icon::before {
+    top: -8px;
+
+}
+.navbar-toggler .navbar-toggler-icon::after {
+    bottom:  -8px;
+
+
+}
+.navbar-toggler .navbar-toggler-icon:before, .navbar-toggler .navbar-toggler-icon:after {
+    position: absolute;
+    background:white;
+    width: 30px;
+    height: 2px;
+    content: '';
+}
+.navbar-toggler:hover{
+    box-shadow: none;
+}
+
+
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */
+
+
+
+
+@media only screen and (max-width: 992px) {
+    
+    .navbar {
+        background: transparent;
+        margin-left: 0;
+        border: none;
+        background-color: transparent;
+      }
+  }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+      background: transparent;
+      margin-left: 0;
+      border: none;
+      background-color: transparent;
+    }
+
+  }
