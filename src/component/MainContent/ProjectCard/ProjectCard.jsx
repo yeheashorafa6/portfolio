@@ -15,9 +15,11 @@ function ProjectCard({title , desc , image}) {
                     {desc}
                 </Card.Text>
                 <span className="soical-icon">
-                  <FontAwesomeIcon icon={faGithub} />
-                  <a href="https://www.facebook.com/">
-                  <FontAwesomeIcon icon={faFacebook} />
+                  <a href="https://github.com/">
+                    <FontAwesomeIcon icon={faGithub} className="icon"/>
+                  </a>
+                  <a href="https://www.facebook.com/" className="ms-3">
+                    <FontAwesomeIcon icon={faFacebook} className="icon"/>
                   </a>
                 </span>
                 

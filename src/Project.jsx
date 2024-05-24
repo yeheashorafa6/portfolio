@@ -13,7 +13,7 @@ import image_9 from "./../../assets/img/projects/project-img9.jpg"
 import image_10 from "./../../assets/img/projects/project-img10.png"
 
 
-function mainContent() {
+function Projects() {
   const allProject = [ 
     {id : 1 , title : "HTML" , desc : "Lorem ipsum dolor sit amet"  , image : image_1 },
     {id : 2 , title : "VUE" , desc : "adipisicing elit.Ipsam ex " , image : image_2},
@@ -45,10 +45,14 @@ const react = [
 
   return (
     <>
-      <section className="mainContent-section mx-5">
+      <section className="projects-section mx-5">
+        <div className="project-text">
+            <h1>Projects</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus itaque eum sequi ea corporis vero ex ipsam non .</p>
+        </div>
         <div className="row">
         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-            <Col className="col-lg-2 col-3">
+            <Col className="col-12">
                 <Nav variant="pills" defaultActiveKey="/first">
                     <Nav.Item>
                         <Nav.Link eventKey="first" >All Project</Nav.Link>
@@ -61,7 +65,7 @@ const react = [
                     </Nav.Item>
                   </Nav>
             </Col>
-          <Col className="col-lg-9 col-9">
+          <Col className="col-12">
             <div className="row">
             <Tab.Content>
                   <Tab.Pane eventKey="first">
@@ -101,4 +105,4 @@ const react = [
   );
 }
 
-export default mainContent;
+export default Projects;

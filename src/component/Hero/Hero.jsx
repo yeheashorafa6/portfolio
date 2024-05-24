@@ -6,6 +6,7 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import imageYeh from "./../../assets/img/hero/person.png"
 
 function hero() {
   return (
@@ -13,14 +14,7 @@ function hero() {
       <section className="hero-section">
         <div className="row">
           <div className="col-lg-6 col-12 mx-5">
-            <div className="hero-img my-3">
-              <img
-                style={{ width: "100px" }}
-                src="./../../../public/person.png"
-                alt="logo"
-              />
-            </div>
-            <div className="description">
+            <div className="description my-5">
               <h1 className="description-title">
                 Software designer, founder, and amateur astronaut.
               </h1>
@@ -69,7 +63,7 @@ function hero() {
           </div>
           <div className="col-lg-5 col-12">
             <div className="image">
-              {/* <img src="./../../../public/animation.gif" alt="real" /> */}
+              <img src={imageYeh} className="img-fluid" style={{width : "70%"}}  alt="real" />
             </div>
           </div>
         </div>

@@ -1,0 +1,76 @@
+
+.contactUS .contact-text h1{
+    color: white !important;
+    font-weight: 600;
+}
+
+
+.contact-text h1 span .icon{
+    color: #A09FA8;
+}
+
+
+
+.contactUS .contact-text p{
+    color: #A09FA8 !important;
+}
+
+form .form-control{
+    background-color: #1D1D21 !important;
+    padding: 20px;
+    border-radius: 15px;
+    color: white !important;
+    border: 1px solid rgba(84, 84, 88, 0.608);
+}
+
+.form-control::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.form-control:focus {
+    border-color: rgba(255, 255, 255, 0.288) !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+form .btn{
+    padding: 15px 50px;
+    color: white;
+    background-color: #1D1D21;
+    border: none !important;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    transition: all .5s ease;
+}
+form .btn:hover{
+    color: #1D1D21 !important;
+    font-weight: 500;
+    background-color: white !important;
+    color: white;
+}
+
+.message-sending{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+
+.contactUS img {
+    animation: updown 4s linear infinite;
+    width: 100%;
+    
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
