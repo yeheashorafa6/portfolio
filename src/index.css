@@ -45,8 +45,8 @@ a{
 }
 
 body{
-    background-color: #000;
-    color : #18181B
+    background-color: #000 !important;
+    color : #18181B 
 }
 
 .container{
