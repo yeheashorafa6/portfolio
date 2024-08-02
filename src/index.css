@@ -45,7 +45,7 @@ a{
 }
 
 body{
-    background-color: var(--primary-color);
+    background-color: #000;
     color : var(--secodary-color)
 }
 
