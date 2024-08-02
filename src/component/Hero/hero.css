@@ -1,0 +1,78 @@
+.hero-section .description .description-title{
+    font-size: 3.5rem ;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.hero-section .description .description-sub-title{
+    font-size: 1rem ;
+    color: var(--sub-title-color);
+    width: 80%;
+}
+
+.soical .soical-link{
+    margin-left: 1.2rem;
+    font-size:30px ;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.soical .soical-link .soical-item{
+    color: var(--title-color) !important;
+}
+.soical .soical-link .soiacl-item:hover{
+    color: var(--sub-title-color) !important;
+
+}
+
+
+
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */
+
+
+
+
+/* @media only screen and (max-width: 992px) {
+    
+    .hero-section .description .description-title{
+        font-size: 3.5rem ;
+        font-weight: 700;
+        color: var(--title-color);
+    }
+    
+    .hero-section .description .description-sub-title{
+        font-size: 1rem ;
+        color: var(--sub-title-color);
+    }
+  } */
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+      background: transparent;
+      margin-left: 0;
+      border: none;
+      background-color: transparent;
+    }
+
+  }
+  @media only screen and (min-width: 576px) {
+    .hero-section .description .description-title{
+        font-size: 2.5rem ;
+        margin-bottom: 1rem;
+
+    }
+    
+    .hero-section .description .description-sub-title{
+        font-size: .8rem;
+
+    }
+
+  }
+
+  @media only screen and (max-width: 576px) {
+    .hero-section .description .description-title{
+        font-size: 3rem ;
+
+    }
+  }

@@ -1,0 +1,8 @@
+footer p span {
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+footer p span:hover{
+    color: #AA367C;
+}
